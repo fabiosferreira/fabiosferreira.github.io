@@ -1,0 +1,28 @@
+@mixin social ($rede){	
+	float: left;
+	margin-left: 25px;
+	a {
+		@include ajusta-imagem(32px, 32px);				
+		display: block;
+		text-indent: -9999px;	
+	}
+	@if $rede == "facebook.com" {
+		background-image: url(../img/facebook.png) ;
+	} @else if $rede == "twitter.com" {		
+		background-image: url(../img/twitter.png) ;
+	} @else if $rede == "plus.google.com" {			
+		background-image: url(../img/googleplus.png) ;		
+	} @else if $rede == "lattes.cnpq.br" {			
+		background-image: url(../img/icon-lattes.jpeg) ;
+	} @else if $rede == "br.linkedin.com" {			
+		background-image: url(../img/in.png) ;
+	}@else if $rede == "github.com" {			
+		background-image: url(../img/github.png) ;
+	}
+	
+}
+
+@mixin ajusta_imagem($largura, $altura){
+	width:$largura;
+	height:$altura;		
+}

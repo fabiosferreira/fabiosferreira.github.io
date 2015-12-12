@@ -8,3 +8,13 @@ wow = new WOW(
 	}
 )
 wow.init();
+
+function favorita(el) {
+	if (el.firstElementChild.style.color=='red'){
+		el.firstElementChild.style.color = 'black';
+		el.firstElementChild.className = el.firstElementChild.className.replace("fa-heart", "fa-heart-o");
+	}else{
+		el.firstElementChild.style.color = 'red';
+		el.firstElementChild.className = el.firstElementChild.className.replace("fa-heart-o", "fa-heart");
+	}	         
+}
