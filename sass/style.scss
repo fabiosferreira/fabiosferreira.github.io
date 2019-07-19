@@ -57,6 +57,10 @@ img{
 	width: 100%;
 }
 
+.title{
+	
+}
+
 .subtitle{
 	display: block;
 	text-align: center;
@@ -257,8 +261,14 @@ img{
 }
 
 .menu_bar{
-	
 	font-size: 15px;
+}
+
+.menu_phone{
+	background-color: rgb(33,150,243);
+	color: rgb(255,255,255);
+	border: none;
+	display: none;
 }
 
 .botao{
@@ -267,6 +277,9 @@ img{
     color: rgb(33,150,243);
 }
 
+.rodape{
+    margin: auto;
+}
 
 #more {display: none;}
 
@@ -342,12 +355,24 @@ img{
 	.contato{
 		display: none;
 	}
-}
-
-@media (max-width: 359px){
 
 	.social{
 		display: none;
+	}
+
+	.menu_bar a{
+		display: none !important;
+	}
+
+	.menu_phone{
+		display: block;
+	}
+}
+
+@media (max-width: 320px){
+
+	p{
+		font-size: 13px;
 	}
 }
 

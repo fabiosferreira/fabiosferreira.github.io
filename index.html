@@ -23,11 +23,11 @@
 </head>
 <body>
 	<!-- Always shows a header, even in smaller screens. -->
-	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+	<div class="mdl-layout mdl-layout--fixed-header">
 		<header class="bar mdl-layout__header">
 			<div class="mdl-layout__header-row">				 
 				<!-- Title -->
-				<span class="mdl-layout-title"><a class="mdl-navigation__link" href="#biography">Fábio Ferreira</a></span>
+				<span class="title mdl-layout-title"><a class="mdl-navigation__link" href="#biography">Fábio Ferreira</a></span>
 				<!-- Add spacer, to align navigation to the right -->
 				<div class="mdl-layout-spacer"></div>
 				<!-- Navigation. We hide it in small screens. -->
@@ -37,10 +37,13 @@
 					<a class="mdl-navigation__link" href="#skills">Skills
 					</a>
 					<a class="mdl-navigation__link" href="#publications">Publications</a>
+					<button class="menu_phone" onclick="exibeHabilidade(this)">
+						<i class="material-icons">menu</i></button>
 				</nav>
+
 			</div>
 		</header>
-		<div class="mdl-layout__drawer">
+		<!-- <div class="mdl-layout__drawer">
 			<span class="mdl-layout-title">Fábio Ferreira</span>
 			<nav class="mdl-navigation">
 				<a class="mdl-navigation__link" href="#academico">Biography</a>
@@ -48,7 +51,7 @@
 				<a class="mdl-navigation__link" href="#skills">Skills</a>
 				<a class="mdl-navigation__link" href="#publications">Publications</a>
 			</nav>
-		</div>
+		</div> -->
 	</div>
 	<div class="mdl-layout">
 		<main class="mdl-layout__content">
@@ -327,15 +330,15 @@
 					<div class="mdl-cell--1-col mdl-cell--8-col-tablet mdl-cell--4-col-phone"></div>
 				</div>
 				<footer class="mdl-mini-footer">
-					<div class="mdl-mini-footer__left-section">
-						<div class="mdl-logo">Fábio Ferreira</div>
+<!-- 					<div class="mdl-mini-footer__left-section">
+ -->						<div class="rodape mdl-logo">Fábio Ferreira © 2019 - Todos os direitos reservados.</div>
 						<ul class="mdl-mini-footer__link-list">
 							<!-- <li><a href="#">Ajuda</a></li>
 							<li><a href="#">Política de Privacidade</a></li> -->				
-							<li class="contato"><a href="mailto:fabio.ferreira@ifsudestemg.edu.br" target="_top">Contato</a></li>
+							<!-- <li class="contato"><a href="mailto:fabio.ferreira@ifsudestemg.edu.br" target="_top">Contato</a></li> -->
 						</ul>			
-					</div>
-					<div class="social mdl-mini-footer__right-section">			
+<!-- 					</div>
+ -->					<!-- <div class="social mdl-mini-footer__right-section">			
 						<div class="social-lattes" title="Lattes">
 								<a href="http://lattes.cnpq.br/8025083564194915">Lattes</a>
 							</div>	
@@ -351,7 +354,7 @@
 							<div class="social-mail" title="Contato">
 								<a href="mailto:fabio.ferreira@ifsudestemg.edu.br" target="_top">Contato</a>
 							</div>
-					</div>
+					</div> -->
 				</footer>
 			</div>
 		</main>

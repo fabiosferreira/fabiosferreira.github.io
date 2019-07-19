@@ -3012,10 +3012,21 @@ img.perfil {
   font-size: 15px;
 }
 
+.menu_phone {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  display: none;
+}
+
 .botao {
   width: -webkit-fill-available;
   margin: auto;
   color: #2196f3;
+}
+
+.rodape {
+  margin: auto;
 }
 
 #more {
@@ -3090,10 +3101,22 @@ img.perfil {
   .contato {
     display: none;
   }
-}
-@media (max-width: 359px) {
+
   .social {
     display: none;
+  }
+
+  .menu_bar a {
+    display: none !important;
+  }
+
+  .menu_phone {
+    display: block;
+  }
+}
+@media (max-width: 320px) {
+  p {
+    font-size: 13px;
   }
 }
 @keyframes rotateWord {
