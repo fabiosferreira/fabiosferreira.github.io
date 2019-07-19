@@ -6348,8 +6348,12 @@ input.mdl-button[type="submit"] {
   color: rgb(66,66,66);
   text-decoration: none;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 15px;
   margin: 0; }
+
+.mdl-navigation__link:hover {
+  color: red;
+}
 
 .mdl-layout {
   width: 100%;

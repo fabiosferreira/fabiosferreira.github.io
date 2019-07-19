@@ -1,11 +1,24 @@
 @mixin social ($rede){	
 	float: left;
-	margin-left: 25px;
+	margin-left: 15px;
+	border-radius: 25%;
+	opacity: 1;
+  	filter: alpha(opacity=100);
+
 	a {
 		@include ajusta-imagem(32px, 32px);				
 		display: block;
 		text-indent: -9999px;	
 	}
+
+	transform: rotate(1) scale(1,1);
+	transition: all 0.3s ease-in-out;
+	&:hover{		
+		transform: rotate(0deg) scale(1.4,1.4);	
+		opacity: 0.8;
+  		filter: alpha(opacity=80);							
+	}
+
 	@if $rede == "facebook.com" {
 		background-image: url(../img/facebook.png) ;
 	} @else if $rede == "twitter.com" {		
@@ -13,13 +26,14 @@
 	} @else if $rede == "plus.google.com" {			
 		background-image: url(../img/googleplus.png) ;		
 	} @else if $rede == "lattes.cnpq.br" {			
-		background-image: url(../img/icon-lattes.jpeg) ;
+		background-image: url(../img/lattes.jpg) ;
 	} @else if $rede == "br.linkedin.com" {			
-		background-image: url(../img/in.png) ;
+		background-image: url(../img/linkedin.png) ;
 	}@else if $rede == "github.com" {			
 		background-image: url(../img/github.png) ;
+	}@else if $rede == "mail.com" {			
+		background-image: url(../img/email.png) ;
 	}
-	
 }
 
 @mixin ajusta_imagem($largura, $altura){
