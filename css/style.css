@@ -3006,6 +3006,7 @@ img.perfil {
 
 .bar {
   position: fixed;
+  top: 0;
 }
 
 .menu_bar {
