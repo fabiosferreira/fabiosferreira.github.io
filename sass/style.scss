@@ -15,11 +15,6 @@ p{
 		opacity: 0.6;
 		margin-bottom: 0.8rem;		
 	}
-	
-}
-
-h1{
-	
 }
 
 img{
@@ -54,10 +49,6 @@ img{
 	width: 100%;
 }
 
-.title{
-	
-}
-
 .subtitle{
 	display: block;
 	text-align: center;
@@ -73,27 +64,9 @@ img{
     letter-spacing: -.022em !important;
 }
 
-.subtitulo{
-	text-align: center;
-	margin-bottom: 2em;	
-}
-
-.academico{
-	text-align: right;
-	margin: 20px 0;
-}
-
 .experiencia{
 	margin: 60px auto;
 	display: block;
-}
-
-.habilidade_left{
-	margin: auto 0;
-}
-
-.habilidade_right{
-	margin: auto;
 }
 
 .habilidades{
@@ -140,11 +113,6 @@ img{
 	text-transform: uppercase;
 }
 
-.card{
-	margin: auto; 
-	padding-bottom: 20px;
-}
-
 .div{
 	overflow: hidden;	
 	white-space: nowrap;
@@ -160,8 +128,6 @@ img{
 .social_p{	
     margin: 0px auto;
     position: relative;
-    /* margin-top: 0px; */
-    /* margin-left: inherit; */
     width: 250px;
 }
 
@@ -193,72 +159,6 @@ img{
 @include social("github.com");
 }
 
-.frase{
-	margin: auto;
-	margin-bottom: 40px;
-	text-align: center;
-	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
-	
-	&.span{
-		color: #444;			
-		text-align: center;
-	}
-}
-
-.texto{	
-	display: inline;
-	text-indent: 10px;
-}
-.texto-1 span{	
-	overflow: hidden;
-	position: absolute;
-	opacity: 0;		
-	color: #888;
-	text-align: center;
-	-webkit-transform-origin: 10% 75%;
-	transform-origin: 10% 75%;
-	-webkit-animation: rotateWord 12s linear infinite 0s;
-	-ms-animation: rotateWord 12s linear infinite 0s;
-	animation: rotateWord 12s linear infinite 0s;
-
-	&:after{
-		content: "! ";
-
-	}
-}
-
-.texto span:nth-child(2) { 
-    -webkit-animation-delay: 2s; 
-	-ms-animation-delay: 2s; 
-	animation-delay: 2s; 
-	color: #6b889d;
-}
-.texto span:nth-child(3) { 
-    -webkit-animation-delay: 4s; 
-	-ms-animation-delay: 4s; 
-	animation-delay: 4s; 
-	color: #6b739d;	
-}
-.texto span:nth-child(4) { 
-    -webkit-animation-delay: 6s; 
-	-ms-animation-delay: 6s; 
-	animation-delay: 6s; 
-	color: #6b889d;
-}
-.texto span:nth-child(5) { 
-    -webkit-animation-delay: 8s; 
-	-ms-animation-delay: 8s; 
-	animation-delay: 8s; 
-	color: #6b739d;	
-}
-
-.texto span:nth-child(6) { 
-    -webkit-animation-delay: 10s; 
-	-ms-animation-delay: 10s; 
-	animation-delay: 10s; 
-	color: #6b739d;	
-}
-
 .bar{
 	position: fixed;
 	top: 0;
@@ -283,24 +183,10 @@ img{
 	}
 }
 
-.press{
-	background-color: rgba(11, 116, 200, 0.78);
-	color: rgb(255,255,255);
-}
-
-.botao{
-	width: -webkit-fill-available;
-    margin: auto;
-    color: rgb(33,150,243);
-}
-
 .rodape{
     margin: auto;
     text-align: center;
 }
-
-#more {display: none;}
-
 
 .collapsible {
 	font-family: "Helvetica","Arial",sans-serif;
@@ -488,6 +374,7 @@ img{
 	/* color: black; */
 	-webkit-font-smoothing: antialiased;
 	background-color: rgba(252, 254, 255, 0.93);
+	transition: 0.5s;
 }
 
 #menu button
