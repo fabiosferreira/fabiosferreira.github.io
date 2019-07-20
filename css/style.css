@@ -3113,7 +3113,7 @@ img.perfil {
     margin: auto;
   }
 }
-@media (max-width: 670px) {
+@media (max-width: 669px) {
   .contato {
     display: none;
   }
@@ -3126,8 +3126,13 @@ img.perfil {
     display: none !important;
   }
 
-  .menu_phone {
-    display: block;
+  #menuToggle {
+    display: flex;
+  }
+}
+@media (min-width: 670px) {
+  #menuToggle {
+    display: none;
   }
 }
 @media (max-width: 320px) {
@@ -3175,10 +3180,8 @@ img.perfil {
   }
 }
 #menuToggle {
-  display: flex;
   flex-direction: column;
   position: relative;
-  top: 10px;
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
