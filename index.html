@@ -30,16 +30,33 @@
 			<!-- Add spacer, to align navigation to the right -->
 			<div class="mdl-layout-spacer"></div>
 			<!-- Navigation. We hide it in small screens. -->
-			<nav class="menu_bar mdl-navigation mdl-layout--large-screen-only">
+			<!-- <nav class="menu_bar mdl-navigation mdl-layout--large-screen-only">
 				<a class="mdl-navigation__link" href="#biography">Biography</a>
 				<a class="mdl-navigation__link" href="#experiencia">Professional Experience</a>
 				<a class="mdl-navigation__link" href="#skills">Skills
 				</a>
 				<a class="mdl-navigation__link" href="#publications">Publications</a>
-				<button class="menu_phone" onclick="exibeHabilidade(this)">
+				<button class="menu_phone" onclick="exibeMenu(this)">
 					<i class="material-icons">menu</i></button>
-			</nav>
 
+
+			</nav> -->
+			<!-- <nav role="navigation"> -->
+            <div id="menuToggle">
+              <input type="checkbox" id="check"/>
+                <span></span>
+                <span></span>
+                <span></span>
+	            <div id="menu">
+	            	<button onclick="escondeMenu(this)"><a href="#biography">Biography</a></button>
+					<button onclick="escondeMenu(this)"><a class="mdl-navigation__link menu_link" href="#experiencia">Professional Experience</a></button>
+					<button onclick="escondeMenu(this)"><a class="mdl-navigation__link menu_link" href="#skills">Skills
+					</a></button>
+					<button onclick="escondeMenu(this)"><a class="mdl-navigation__link menu_link" href="#publications">Publications</a></button>
+	              
+	            </div>
+           </div>
+          <!-- </nav> -->
 		</div>
 	</header>
 		<!-- <div class="mdl-layout__drawer">

@@ -37,12 +37,33 @@ function exibeHabilidade(el){
     }
 }
 
-function favorita(el) {
-	if (el.firstElementChild.style.color=='red'){
-		el.firstElementChild.style.color = 'black';
-		el.firstElementChild.className = el.firstElementChild.className.replace("fa-heart", "fa-heart-o");
-	}else{
-		el.firstElementChild.style.color = 'red';
-		el.firstElementChild.className = el.firstElementChild.className.replace("fa-heart-o", "fa-heart");
-	}	         
+function exibeMenu(el){
+	var content = el.nextElementSibling;
+	el.classList.toggle("press");
+    if (content.style.display === "block") {
+      content.style.display = "none";
+      el.firstElementChild.innerHTML = "playlist_add";
+    } else {
+      content.style.display = "block";
+      el.firstElementChild.innerHTML = "minimize";
+    }
 }
+
+function escondeMenu(el){
+	// document.getElementById("menu").style.WebkitTransform = "none"; 
+	// // Code for IE9
+	// document.getElementById("menu").style.msTransform = "none"; 
+	// // Standard syntax
+	// document.getElementById("menu").style.transform = "none"; 
+	document.getElementById("check").checked = false;
+}
+
+// function favorita(el) {
+// 	if (el.firstElementChild.style.color=='red'){
+// 		el.firstElementChild.style.color = 'black';
+// 		el.firstElementChild.className = el.firstElementChild.className.replace("fa-heart", "fa-heart-o");
+// 	}else{
+// 		el.firstElementChild.style.color = 'red';
+// 		el.firstElementChild.className = el.firstElementChild.className.replace("fa-heart-o", "fa-heart");
+// 	}	         
+// }
