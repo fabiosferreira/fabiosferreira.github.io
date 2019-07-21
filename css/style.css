@@ -3033,9 +3033,18 @@ img.perfil {
     display: none;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 363px) {
+  .rodape {
+    font-size: 13px;
+  }
+
   p {
     font-size: 13px;
+  }
+}
+@media (max-width: 339px) {
+  .rodape {
+    font-size: 12px;
   }
 }
 @keyframes rotateWord {
