@@ -2638,6 +2638,11 @@
   content: "";
 }
 
+html {
+  -webkit-text-size-adjust: 100%;
+  /* Prevent font scaling in landscape while allowing user zoom */
+}
+
 p {
   margin: 0;
   padding: 0;
