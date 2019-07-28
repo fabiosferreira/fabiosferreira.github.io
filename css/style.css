@@ -2648,7 +2648,7 @@ p.curso {
 }
 p.data {
   opacity: 0.6;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.4rem;
 }
 
 img.perfil {
@@ -2702,8 +2702,12 @@ img.perfil {
 }
 
 .experience {
-  background-color: #f7f7f7;
+  background-color: #f8f8f8b3;
   border-radius: 10px;
+  border: 1px;
+  border-style: solid;
+  margin-bottom: 8px;
+  border-color: #9e9e9e;
 }
 .experience p {
   margin-left: 10px;
@@ -2711,6 +2715,9 @@ img.perfil {
 }
 .experience :first-child {
   margin-top: 7px;
+}
+.experience :last-child {
+  margin-top: 3px;
 }
 
 .habilidades {
@@ -2936,6 +2943,9 @@ img.perfil {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+}
+.bar a:hover {
+  text-decoration: none;
 }
 
 .menu_bar {
@@ -3202,6 +3212,9 @@ img.perfil {
 
 a {
   text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 
 #menuToggle input:checked ~ div {
