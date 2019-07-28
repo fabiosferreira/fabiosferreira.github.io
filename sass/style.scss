@@ -69,6 +69,18 @@ img{
 	display: block;
 }
 
+.experience{
+	background-color: #f7f7f7;	
+	border-radius: 10px;
+	p{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	:first-child { 
+		margin-top: 7px;
+	}
+}
+
 .habilidades{
 	display: block;
 	margin: 60px auto;
@@ -414,15 +426,18 @@ img{
   	color: black;
   	display: block;
 	text-decoration: none;
-	font-weight: 500;
+	font-weight: 550;
 	margin: 0;
 	cursor: auto;
-	line-height: 45px;
+	line-height: 40px;
 	padding: 0 16px;
 	font-family: "Helvetica","Arial",sans-serif;
   }
 }
 
+a{
+	text-decoration: none;
+}
 
 #menuToggle input:checked ~ div
 {
