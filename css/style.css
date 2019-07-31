@@ -3086,6 +3086,23 @@ img.perfil {
     font-size: 12px;
   }
 }
+@media (min-width: 1441px) {
+  .habilidades {
+    margin-left: 40px;
+  }
+
+  .biography {
+    margin-left: 40px;
+  }
+
+  .experiencia {
+    margin-left: 40px;
+  }
+
+  .publications {
+    margin-left: 40px;
+  }
+}
 @keyframes rotateWord {
   0% {
     opacity: 0;
