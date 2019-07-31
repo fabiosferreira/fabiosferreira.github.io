@@ -2669,6 +2669,7 @@ img.perfil {
 .biography {
   display: block;
   margin: 120px auto;
+  margin-left: 90px;
   margin-bottom: 70px;
   text-align: justify;
 }
@@ -2676,6 +2677,7 @@ img.perfil {
 .publications {
   display: block;
   margin: 60px auto;
+  margin-left: 90px;
   margin-bottom: 60px;
   text-align: justify;
 }
@@ -2703,6 +2705,7 @@ img.perfil {
 
 .experiencia {
   margin: 60px auto;
+  margin-left: 90px;
   display: block;
 }
 
@@ -2729,6 +2732,7 @@ img.perfil {
 .habilidades {
   display: block;
   margin: 60px auto;
+  margin-left: 90px;
 }
 
 .publication {
