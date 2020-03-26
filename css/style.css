@@ -2789,12 +2789,12 @@ img.perfil {
 .social_p {
   margin: 0px auto;
   position: relative;
-  width: 250px;
+  width: 260px;
 }
 
 .social-facebook {
   float: left;
-  margin-left: 15px;
+  margin-left: 10px;
   border-radius: 25%;
   opacity: 1;
   filter: alpha(opacity=100);
@@ -2816,13 +2816,13 @@ img.perfil {
 
 .social-twitter {
   float: left;
-  margin-left: 15px;
+  margin-left: 10px;
   border-radius: 25%;
   opacity: 1;
   filter: alpha(opacity=100);
   transform: rotate(1) scale(1, 1);
   transition: all 0.3s ease-in-out;
-  background-image: url(../img/twitter.png);
+  background-image: url(../img/twitter1.png);
 }
 .social-twitter a {
   width: 32px;
@@ -2836,9 +2836,31 @@ img.perfil {
   filter: alpha(opacity=80);
 }
 
+.social-researchgate {
+  float: left;
+  margin-left: 10px;
+  border-radius: 25%;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  transform: rotate(1) scale(1, 1);
+  transition: all 0.3s ease-in-out;
+  background-image: url(../img/researchgate.png);
+}
+.social-researchgate a {
+  width: 32px;
+  height: 32px;
+  display: block;
+  text-indent: -9999px;
+}
+.social-researchgate:hover {
+  transform: rotate(0deg) scale(1.4, 1.4);
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
 .social-google {
   float: left;
-  margin-left: 15px;
+  margin-left: 10px;
   border-radius: 25%;
   opacity: 1;
   filter: alpha(opacity=100);
@@ -2860,7 +2882,7 @@ img.perfil {
 
 .social-mail {
   float: left;
-  margin-left: 15px;
+  margin-left: 10px;
   border-radius: 25%;
   opacity: 1;
   filter: alpha(opacity=100);
@@ -2882,7 +2904,7 @@ img.perfil {
 
 .social-lattes {
   float: left;
-  margin-left: 15px;
+  margin-left: 10px;
   border-radius: 25%;
   opacity: 1;
   filter: alpha(opacity=100);
@@ -2904,7 +2926,7 @@ img.perfil {
 
 .social-linkedin {
   float: left;
-  margin-left: 15px;
+  margin-left: 10px;
   border-radius: 25%;
   opacity: 1;
   filter: alpha(opacity=100);
@@ -2926,7 +2948,7 @@ img.perfil {
 
 .social-github {
   float: left;
-  margin-left: 15px;
+  margin-left: 10px;
   border-radius: 25%;
   opacity: 1;
   filter: alpha(opacity=100);

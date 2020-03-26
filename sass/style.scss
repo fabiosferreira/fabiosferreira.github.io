@@ -157,7 +157,7 @@ img{
 .social_p{	
     margin: 0px auto;
     position: relative;
-    width: 250px;
+    width: 260px;
 }
 
 .social-facebook{
@@ -166,6 +166,10 @@ img{
 
 .social-twitter{
 @include social("twitter.com");
+}
+
+.social-researchgate{
+@include social("researchgate.net");
 }
 
 .social-google{
