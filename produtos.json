@@ -1,0 +1,12 @@
+{
+"produtos": [
+  {
+    "nome": "Sapato",
+    "quantidade": 10
+  },
+  {
+    "nome": "Vestido",
+    "quantidade": 15
+  }
+]
+}	    
