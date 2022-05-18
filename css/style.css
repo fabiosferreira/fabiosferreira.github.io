@@ -2866,7 +2866,7 @@ img.perfil {
   filter: alpha(opacity=100);
   transform: rotate(1) scale(1, 1);
   transition: all 0.3s ease-in-out;
-  background-image: url(../img/googleplus.png);
+  background-image: url(../img/scholar.png);
 }
 .social-google a {
   width: 32px;
